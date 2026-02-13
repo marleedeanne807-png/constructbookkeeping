@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: marleedeeanne807-png/constructbookkeeping
+  repo: marleedeanne807-png/constructbookkeeping
   branch: main
   auth_type: implicit
 
