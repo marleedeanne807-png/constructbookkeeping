@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: marleedeeanne807/constructbookkeeping
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "content/home.yml"
+        fields:
+          - {label: "Headline", name: "headline", widget: "string"}
+          - {label: "Subheading", name: "subheading", widget: "text"}
+          - {label: "Foundation Price", name: "foundation_price", widget: "string"}
+          - {label: "Framing Price", name: "framing_price", widget: "string"}
+          - {label: "Turnkey Price", name: "turnkey_price", widget: "string"}
+          - {label: "Catchup Price", name: "catchup_price", widget: "string"}
