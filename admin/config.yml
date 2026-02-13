@@ -3,8 +3,6 @@ backend:
   repo: marleedeanne807-png/constructbookkeeping
   branch: main
   auth_type: implicit
-  site_url: https://marleedeanne807-png.github.io/constructbookkeeping/
-
 
 media_folder: "images"
 public_folder: "/images"
@@ -17,9 +15,9 @@ collections:
         name: "home"
         file: "content/home.yml"
         fields:
-          - {label: "Headline", name: "headline", widget: "string"}
-          - {label: "Subheading", name: "subheading", widget: "text"}
-          - {label: "Foundation Price", name: "foundation_price", widget: "string"}
-          - {label: "Framing Price", name: "framing_price", widget: "string"}
-          - {label: "Turnkey Price", name: "turnkey_price", widget: "string"}
-          - {label: "Catchup Price", name: "catchup_price", widget: "string"}
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Subheading", name: "subheading", widget: "text" }
+          - { label: "Foundation Price", name: "foundation_price", widget: "string" }
+          - { label: "Framing Price", name: "framing_price", widget: "string" }
+          - { label: "Turnkey Price", name: "turnkey_price", widget: "string" }
+          - { label: "Catchup Price", name: "catchup_price", widget: "string" }
