@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: marleedeeanne807/constructbookkeeping
+  repo: marleedeanne807-png/constructbookkeeping
   branch: main
 
 media_folder: "images"
