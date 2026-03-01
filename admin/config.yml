@@ -1,7 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   repo: marleedeanne807-png/constructbookkeeping
-  branch: main
+  branch: preview
   auth_type: implicit
   base_url: https://api.netlify.com
   auth_endpoint: auth
